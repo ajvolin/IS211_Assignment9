@@ -50,7 +50,7 @@ def get_html(url):
 
     Example:
         >>> get_html(
-            'https://www.nasdaq.com/symbol/aapl/historical')
+            'http://www.footballlocks.com/nfl_point_spreads.shtml')
     """
 
     response = request.urlopen(url).read()
@@ -104,6 +104,7 @@ def main():
 
     # Exit the program after the spreads are printed
     sys.exit()
+
 
 if __name__ == '__main__':
     main()
